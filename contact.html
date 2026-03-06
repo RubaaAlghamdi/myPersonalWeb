@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="overlay">
+
+      <header class="topbar">
+        <div class="topbar-inner">
+          <div class="brand">
+            <div class="name">Ruba Alghamdi</div>
+            <small class="title">IT Student • Full-Stack & AI</small>
+          </div>
+
+          <nav class="nav">
+            <a href="index.html">CV</a>
+            <a href="schedule.html">Class Schedule</a>
+            <a href="labs.html">Labs</a>
+            <a class="active" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="layout">
+
+          <!-- SIDEBAR -->
+          <aside class="sidebar">
+            <div class="card profile">
+              <img class="avatar" src="profile.jpg" alt="Profile picture">
+              <h3>Ruba Alghamdi</h3>
+              <p>Let’s connect ✨</p>
+
+              <div class="social">
+                <a class="icon-btn" href="https://www.linkedin.com/in/ruba-alghamdi-5322451b3/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <img src="linkedin.svg" alt="LinkedIn">
+                </a>
+                 <a class="icon-btn" href="https://x.com/Rekaz14669390" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <img src="x.svg" alt="X">
+                </a>
+              </div>
+            </div>
+
+            <div class="card contact">
+              <div class="badge">Quick Info</div>
+              <div class="item">
+                <div>
+                  <div class="label">Email</div>
+                  <div class="value"><a href="mailto:ralghamdi1255@stu.kau.edu.sa">ralghamdi1255@stu.kau.edu.sa</a></div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="label">Phone</div>
+                  <div class="value"><a href="tel:+966507741302">+966 50 774 1302</a></div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- MAIN -->
+          <section class="card main-card">
+           
+
+            <h1 class="h1" style="margin-top:14px;">Send me a message </h1>
+            <p class="sub">
+              Replace the action link with your unique webhook.site URL. Name is required, Email is optional.
+            </p>
+
+            <div class="card pad" style="margin-top:16px;">
+              <form action="https://webhook.site/df66448d-8be5-4d2f-ad0b-912c3d16677c" method="GET">
+                <div class="row">
+                  <div>
+                    <label for="name">Name (Required)</label>
+                    <input id="name" name="name" type="text" required placeholder="Your full name" />
+                  </div>
+                  <div>
+                    <label for="email">Email (Optional)</label>
+                    <input id="email" name="email" type="email" placeholder="your@email.com" />
+                  </div>
+                </div>
+
+                <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="10" required placeholder="Write your message..."></textarea>
+                </div>
+
+                <div>
+                  <label>Message Type</label>
+                  <div class="inline">
+                    <label><input type="radio" name="type" value="Inquiry" required> Inquiry</label>
+                    <label><input type="radio" name="type" value="Complaint" required> Complaint</label>
+                  </div>
+                </div>
+
+                <button class="btn primary submit" type="submit">Submit</button>
+              </form>
+            </div>
+          </section>
+
+        </div>
+      </main>
+
+      <footer>
+        <small>© 2026 Ruba — Personal Website</small>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
